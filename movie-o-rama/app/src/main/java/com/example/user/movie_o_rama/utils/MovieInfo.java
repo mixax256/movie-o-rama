@@ -63,7 +63,7 @@ public class MovieInfo {
     private String nameOfFile(String name) {
         String nFile = "";
         for (int i = 0; i < name.length(); i++) {
-            if (name.charAt(i) == ' ' || name.charAt(i) == '+' || name.charAt(i) == ':')
+            if (name.charAt(i) == ' ' || name.charAt(i) == '+' || name.charAt(i) == ':' || name.charAt(i) == '!')
                 nFile += "";
             else
                 nFile += name.charAt(i);
